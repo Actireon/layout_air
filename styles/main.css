@@ -43,6 +43,8 @@ body {
       letter-spacing: 3px; }
       .header .nav__link:hover {
         color: #ff9c8e; }
+      .header .nav__link:focus {
+        outline: 2px dashed #ff9c8e; }
       .header .nav__link--active {
         position: relative; }
         .header .nav__link--active::after {
@@ -81,6 +83,8 @@ body {
     border: 0;
     background-color: #ff9c8e;
     color: #fff; }
+    .header__button:focus {
+      outline: 2px dashed #ff9c8e; }
     .header__button:hover {
       color: #ff9c8e;
       background-color: #fff;
@@ -124,6 +128,8 @@ body {
       background-repeat: no-repeat;
       border-radius: 50%;
       border: 0; }
+      .header .slider__button:focus {
+        outline: 2px dashed #ff9c8e; }
       .header .slider__button--left {
         background-image: url(../images/slider/arrow-left.png);
         margin-right: 8px; }
@@ -144,5 +150,9 @@ body {
       font: normal 14px "Open Sans", sans-serif;
       color: #fff;
       line-height: 20px; }
+  .header .slider1 {
+    background-image: url(../images/slider/slider2.png); }
+  .header .slider2 {
+    background-image: url(../images/slider/slider3.png); }
 
 /*# sourceMappingURL=main.css.map */
