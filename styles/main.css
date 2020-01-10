@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "poppins", sans-serif;
+  background: #eee; }
+
+.header {
+  height: 100vh;
+  background-color: #008aff;
+  border-bottom-left-radius: 200px;
+  position: relative; }
+  .header__wrapper {
+    max-width: 1146px;
+    margin: 0 auto; }
+  .header .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 52px; }
+    .header .nav__list {
+      width: 740px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      list-style: none; }
+    .header .nav__link {
+      font-weight: bold;
+      font-size: 13px;
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 3px; }
+      .header .nav__link:hover {
+        color: #ff9c8e; }
+      .header .nav__link--active {
+        position: relative; }
+        .header .nav__link--active::after {
+          content: "";
+          display: block;
+          width: 100%;
+          position: absolute;
+          height: 2px;
+          margin-top: 8px;
+          border-radius: 4px;
+          background-color: #ff9c8e;
+          -webkit-transition: opacity 1s ease-out;
+          transition: opacity 1s ease-out; }
+        .header .nav__link--active:hover::after {
+          opacity: 0; }
+  .header__info {
+    width: 490px;
+    margin-top: 168px; }
+  .header__title {
+    color: #fff;
+    font-size: 64px;
+    line-height: 68px;
+    letter-spacing: -2px;
+    margin-bottom: 32px; }
+  .header__content {
+    font: normal 18px "Open Sans", sans-serif;
+    color: #fff;
+    line-height: 27px;
+    margin-bottom: 56px; }
+  .header__button {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 12px 65px;
+    border-radius: 64px;
+    border: 0;
+    background-color: #ff9c8e;
+    color: #fff; }
+    .header__button:hover {
+      color: #ff9c8e;
+      background-color: #fff;
+      border: none;
+      cursor: pointer;
+      -webkit-transition: color 200ms ease-in-out;
+      transition: color 200ms ease-in-out; }
+  .header .slider {
+    width: 43vw;
+    height: 82vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-image: url(../images/slider/slider1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 200px; }
+    .header .slider__block {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      width: 350px;
+      margin: 0 0 50px 50px; }
+    .header .slider__button {
+      width: 32px;
+      height: 32px;
+      background-position: center;
+      background-repeat: no-repeat;
+      border-radius: 50%;
+      border: 0; }
+      .header .slider__button--left {
+        background-image: url(../images/slider/arrow-left.png);
+        margin-right: 8px; }
+      .header .slider__button--right {
+        background-image: url(../images/slider/arrow-right.png); }
+      .header .slider__button:hover {
+        opacity: 0.5;
+        cursor: pointer; }
+    .header .slider__info {
+      width: 240px; }
+    .header .slider__title {
+      font-size: 13px;
+      color: #fff;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 8px; }
+    .header .slider__content {
+      font: normal 14px "Open Sans", sans-serif;
+      color: #fff;
+      line-height: 20px; }
+
+/*# sourceMappingURL=main.css.map */
