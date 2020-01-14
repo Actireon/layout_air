@@ -4,6 +4,7 @@
 
 body {
   font-family: "poppins", sans-serif;
+  font-weight: 600;
   background: #f2f9ff; }
 
 .header {
@@ -66,10 +67,9 @@ body {
   .header__title {
     color: #fff;
     font-size: 64px;
-    font-weight: 600;
+    font-weight: inherit;
     line-height: 68px;
-    letter-spacing: -2px;
-    text-transform: capitalize; }
+    letter-spacing: -2px; }
   .header__content {
     font: normal 18px "Open Sans", sans-serif;
     color: #fff;
@@ -156,30 +156,27 @@ body {
   margin-top: 148px; }
   .about__block {
     width: 754px;
-    height: 208px;
     margin: auto; }
   .about__title {
     color: #253757;
-    font-weight: 600;
+    font-weight: inherit;
     font-size: 32px; }
   .about__content {
-    font: 600 24px "Open Sans", sans-serif;
+    font: 24px "Open Sans", sans-serif;
+    font-weight: inherit;
     line-height: 150%;
     color: #6c788b;
     margin-top: 16px; }
 
 .expertise {
   margin-top: 148px;
-  height: 759px;
   background-color: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
+  padding: 130px 0 140px; }
   .expertise__block {
     margin: auto;
     width: 1102px; }
   .expertise__title {
-    font-weight: 600;
+    font-weight: inherit;
     font-size: 52px;
     text-align: center;
     color: #253757; }
@@ -197,7 +194,7 @@ body {
     margin-left: 50px;
     border-radius: 20%; }
   .expertise__h3 {
-    font-weight: 600;
+    font-weight: inherit;
     font-size: 20px;
     color: #253757;
     text-align: center;
@@ -230,7 +227,7 @@ body {
     text-transform: uppercase;
     color: #c0cdd7; }
   .services__h3 {
-    font-weight: 600;
+    font-weight: inherit;
     font-size: 32px;
     color: #253757;
     margin: 16px 0 24px;
@@ -280,7 +277,8 @@ body {
         background-color: rgba(243, 99, 99, 0.1);
         color: #f36363; }
     .services__card__content {
-      font: 600 13px "Open Sans", sans-serif;
+      font: 13px "Open Sans", sans-serif;
+      font-weight: inherit;
       line-height: 150%;
       color: #6c788b;
       width: 200px;
@@ -310,7 +308,7 @@ body {
     .services__card__h3 {
       display: inline-block;
       font-size: 15px;
-      font-weight: 600;
+      font-weight: inherit;
       color: #334563;
       -webkit-transform: translate(16px, -14px);
               transform: translate(16px, -14px); }
