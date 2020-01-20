@@ -829,6 +829,9 @@ body {
     line-height: 150%;
     color: #6c788b;
     margin: 24px 0 64px; }
+  .vision__title, .vision__text, .vision__button {
+    z-index: 10;
+    position: relative; }
   .vision__button {
     font-family: inherit;
     font-weight: 600;
@@ -846,9 +849,8 @@ body {
       transition: color 200ms ease-in-out; }
     .vision__button:focus {
       outline: 2px dashed #ff9c8e; }
-  .vision__title, .vision__text, .vision__button {
-    z-index: 10;
-    position: relative; }
+    .vision__button:hover {
+      border: 2px solid #f2f9ff; }
   .vision__rect-small {
     position: absolute;
     width: 50px;
