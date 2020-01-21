@@ -392,6 +392,10 @@ body {
   .header {
     border-bottom-left-radius: 110px; } }
 
+@media (max-height: 450px) {
+  .header {
+    height: 166vh; } }
+
 .about {
   margin-top: 148px; }
   .about__block {
