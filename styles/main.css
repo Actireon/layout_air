@@ -829,10 +829,13 @@ body {
     line-height: 150%;
     color: #6c788b;
     margin: 24px 0 64px; }
-  .vision__title, .vision__text, .vision__button {
+  .vision__title, .vision__text {
     z-index: 10;
     position: relative; }
   .vision__button {
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     font-family: inherit;
     font-weight: 600;
     font-size: 15px;
@@ -840,7 +843,8 @@ body {
     border-radius: 64px;
     border: 0;
     background-color: #ff9c8e;
-    color: #fff; }
+    color: #fff;
+    z-index: 10; }
     .vision__button:hover {
       color: #ff9c8e;
       background-color: #fff;
@@ -1111,5 +1115,9 @@ body {
 @media (max-width: 700px) {
   .footer__nav {
     display: none; } }
+
+@media (max-width: 450px) {
+  .footer__wrapper {
+    border-top-right-radius: 108px; } }
 
 /*# sourceMappingURL=main.css.map */
