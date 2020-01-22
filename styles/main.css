@@ -155,6 +155,8 @@ body {
       letter-spacing: 3px; }
       .header .nav__link:hover {
         color: #ff9c8e; }
+        .header .nav__link:hover:focus {
+          outline: none; }
       .header .nav__link:focus {
         outline: 2px dashed #ff9c8e; }
       .header .nav__link--active {
@@ -271,6 +273,8 @@ body {
       cursor: pointer;
       -webkit-transition: color 200ms ease-in-out;
       transition: color 200ms ease-in-out; }
+      .header__button:hover:focus {
+        outline: none; }
     .header__button:focus {
       outline: 2px dashed #ff9c8e; }
   .header .slider {
@@ -385,6 +389,8 @@ body {
     font-size: 24px; }
     .header .nav__mobile-link:hover {
       color: #ff9c8e; }
+      .header .nav__mobile-link:hover:focus {
+        outline: none; }
   .header .slider {
     display: none; } }
 
@@ -855,6 +861,8 @@ body {
       cursor: pointer;
       -webkit-transition: color 200ms ease-in-out;
       transition: color 200ms ease-in-out; }
+      .vision__button:hover:focus {
+        outline: none; }
     .vision__button:focus {
       outline: 2px dashed #ff9c8e; }
     .vision__button:hover {
@@ -1024,6 +1032,10 @@ body {
       cursor: pointer;
       -webkit-transition: color 200ms ease-in-out;
       transition: color 200ms ease-in-out; }
+      .footer__button:hover:focus {
+        outline: none; }
+    .footer__button:focus {
+      outline: 2px dashed #ff9c8e; }
   .footer__caption {
     font-weight: bold;
     font-size: 13px;
@@ -1067,6 +1079,10 @@ body {
     letter-spacing: 3px; }
     .footer__link:hover {
       color: #ff9c8e; }
+      .footer__link:hover:focus {
+        outline: none; }
+    .footer__link:focus {
+      outline: 2px dashed #ff9c8e; }
 
 @media (min-width: 2000px) {
   .footer__wrapper {
