@@ -182,7 +182,7 @@ body {
       height: 40px;
       position: absolute;
       right: 0;
-      top: 20px;
+      top: 46px;
       cursor: pointer; }
       .header .nav__mobile-burger .bar {
         width: 30px;
@@ -230,12 +230,12 @@ body {
         transition: top 0.3s ease 0.1s;
         -webkit-animation-fill-mode: forwards;
                 animation-fill-mode: forwards; }
-  .header .nav__mobile {
+  .header .nav-mobile {
     display: none; }
-    .header .nav__mobile--anim {
+    .header .nav-mobile--anim {
       -webkit-animation: navmobile 1s 0s;
               animation: navmobile 1s 0s; }
-    .header .nav__mobile--flex {
+    .header .nav-mobile--flex {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; }
@@ -315,10 +315,10 @@ body {
       .header .slider__button:focus {
         outline: 2px dashed #ff9c8e; }
       .header .slider__button--left {
-        background-image: url(../images/slider/arrow-left.png);
+        background-image: url(../images/slider/arrow-left.svg);
         margin-right: 8px; }
       .header .slider__button--right {
-        background-image: url(../images/slider/arrow-right.png); }
+        background-image: url(../images/slider/arrow-right.svg); }
       .header .slider__button:hover {
         opacity: 0.5;
         cursor: pointer; }
@@ -340,13 +340,13 @@ body {
   .header__info {
     margin-left: 35px; } }
 
-@media (max-width: 920px) {
+@media (max-width: 1024px) {
   .header__info {
-    margin-top: 105px; }
+    margin: 165px 0 0 50px; }
   .header .nav__list {
     width: 640px; }
   .header .slider {
-    width: 56vw;
+    width: 63vw;
     height: 45vh; } }
 
 @media (max-width: 800px) {
@@ -356,16 +356,16 @@ body {
 @media (max-width: 700px) {
   .header__info {
     width: 100%;
-    margin: 105px auto;
+    margin: 95px auto;
     text-align: center; }
-  .header .nav__list, .header .nav__link {
+  .header .nav__link {
     display: none; }
-  .header .nav__mobile-burger {
+  .header .nav__logo-mobile, .header .nav__mobile-burger {
     display: block; }
-  .header .nav__mobile-list {
+  .header .nav-mobile__list {
     margin: auto;
     list-style-type: none;
-    height: 100vh;
+    height: 545px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -379,7 +379,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-  .header .nav__mobile-link {
+  .header .nav-mobile__link {
     font-weight: bold;
     font-size: 13px;
     text-decoration: none;
@@ -387,9 +387,9 @@ body {
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 24px; }
-    .header .nav__mobile-link:hover {
+    .header .nav-mobile__link:hover {
       color: #ff9c8e; }
-      .header .nav__mobile-link:hover:focus {
+      .header .nav-mobile__link:hover:focus {
         outline: none; }
   .header .slider {
     display: none; } }
@@ -400,7 +400,7 @@ body {
 
 @media (max-height: 450px) {
   .header {
-    height: 166vh; } }
+    height: 700px; } }
 
 .about {
   margin-top: 148px; }
