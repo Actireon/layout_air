@@ -289,10 +289,11 @@ body {
     position: absolute;
     right: 0;
     bottom: 0;
-    background-image: url(../images/slider/slider1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    border-top-left-radius: 200px; }
+    border-top-left-radius: 200px;
+    -webkit-transition: 0.5s ease-in;
+    transition: 0.5s ease-in; }
     .header .slider__block {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -335,6 +336,12 @@ body {
       font: normal 14px "Open Sans", sans-serif;
       color: #fff;
       line-height: 140%; }
+  .header .slider1 {
+    background-image: url(../images/slider/slider1.png); }
+  .header .slider2 {
+    background-image: url(../images/slider/slider2.png); }
+  .header .slider3 {
+    background-image: url(../images/slider/slider3.png); }
 
 @media (max-width: 1200px) {
   .header__info {
@@ -459,6 +466,9 @@ body {
     width: 264px; }
   .expertise__photo {
     border-radius: 20%; }
+    .expertise__photo:hover {
+      -webkit-box-shadow: 4px 3px 13px #253757;
+              box-shadow: 4px 3px 13px #253757; }
   .expertise__article-title {
     font-weight: inherit;
     font-size: 20px;
@@ -750,6 +760,15 @@ body {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; }
+    .feedback__section-photo {
+      position: relative;
+      border-radius: 50%;
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transition: -webkit-transform 0.5s ease;
+      transition: -webkit-transform 0.5s ease;
+      transition: transform 0.5s ease;
+      transition: transform 0.5s ease, -webkit-transform 0.5s ease; }
     .feedback__section-article {
       width: 314px;
       background: #fff;
@@ -761,6 +780,15 @@ body {
               box-sizing: border-box;
       text-align: center;
       position: relative; }
+      .feedback__section-article:hover .feedback__section-photo {
+        -webkit-transform: scale(1.2);
+                transform: scale(1.2);
+        -webkit-transition: -webkit-transform 0.5s ease;
+        transition: -webkit-transform 0.5s ease;
+        transition: transform 0.5s ease;
+        transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+        -webkit-box-shadow: 4px 3px 13px #253757;
+                box-shadow: 4px 3px 13px #253757; }
     .feedback__section-rect {
       width: 139px;
       height: 56px;
@@ -781,9 +809,6 @@ body {
         position: absolute;
         right: 30px;
         top: 175px; }
-    .feedback__section-photo {
-      position: relative;
-      border-radius: 50%; }
     .feedback__section-quote {
       display: block;
       margin: 82px auto 11px; }
